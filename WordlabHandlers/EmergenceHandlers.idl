@@ -1,0 +1,69 @@
+// WordlabHandlers.idl : IDL source for WordlabHandlers
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (WordlabHandlers.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(2A1C2256-CCBF-443E-A577-05D5726F4F93),
+	pointer_default(unique)
+]
+interface IPreview : IUnknown
+{
+};
+
+[
+	object,
+	uuid(C94CEF2B-63CF-4051-90C2-1CC5EB77FA82),
+	pointer_default(unique)
+]
+interface IThumbnail : IUnknown
+{
+};
+
+[
+	object,
+	uuid(EBC4A79C-EFDC-4249-995F-CD1A603327FB),
+	pointer_default(unique)
+]
+interface ISearch : IUnknown
+{
+};
+
+[
+	uuid(1BDEDA34-BB4E-4FD9-AD2E-9815CDDE19FA),
+	version(1.0),
+]
+library WordlabHandlersLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(6CEE1020-3894-46DF-B4A5-75E2FC0D234C)
+	]
+	coclass Preview
+	{
+		[default] interface IPreviewHandler;
+	};
+	[
+		uuid(73C35499-B4CF-4F5A-A6DF-EF96240B7EB9)
+	]
+	coclass Thumbnail
+	{
+		[default] interface IThumbnailProvider;
+	};
+	[
+		uuid(D24D8476-4F51-4828-863A-2E1EED7C58F2)
+	]
+	coclass Search
+	{
+		[default] interface IFilter;
+	};
+};
+
+import "shobjidl.idl";
+import "thumbcache.idl";
+import "filter.idl";

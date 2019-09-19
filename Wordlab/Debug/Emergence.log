@@ -1,0 +1,52 @@
+﻿Build started 6/09/2019 7:40:49 PM.
+     1>Project "C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Emergence\Emergence.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Wordlab.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Wordlab.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Wordlab.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildFrm.cpp cntritem.cpp Wordlab.cpp WordlabDoc.cpp WordlabView.cpp MainFrm.cpp
+         MainFrm.cpp
+         WordlabView.cpp
+     1>c:\users\margaret\documents\visual studio 2010\projects\wordlab\emergence\wordlabview.cpp(333): warning C4018: '<' : signed/unsigned mismatch
+         WordlabDoc.cpp
+         Wordlab.cpp
+         cntritem.cpp
+         ChildFrm.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\Wordlab.res" Wordlab.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Wordlab.exe.embed.manifest.res" Debug\Wordlab_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Debug\Wordlab.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Wordlab.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Debug\Wordlab.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Debug\Wordlab.lib" /MACHINE:X86 Debug\Wordlab.res
+         Debug\Wordlab.exe.embed.manifest.res
+         Debug\ChildFrm.obj
+         Debug\cntritem.obj
+         Debug\Wordlab.obj
+         Debug\WordlabDoc.obj
+         Debug\WordlabView.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Wordlab.exe.embed.manifest" /manifest Debug\Wordlab.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Wordlab.exe.embed.manifest.res" Debug\Wordlab_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Debug\Wordlab.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Wordlab.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Debug\Wordlab.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Debug\Wordlab.lib" /MACHINE:X86 Debug\Wordlab.res
+         Debug\Wordlab.exe.embed.manifest.res
+         Debug\ChildFrm.obj
+         Debug\cntritem.obj
+         Debug\Wordlab.obj
+         Debug\WordlabDoc.obj
+         Debug\WordlabView.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         Emergence.vcxproj -> C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Debug\Wordlab.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Wordlab.unsuccessfulbuild".
+         Touching "Debug\Wordlab.lastbuildstate".
+     1>Done Building Project "C:\Users\Margaret\Documents\Visual Studio 2010\Projects\Wordlab\Emergence\Emergence.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.49
